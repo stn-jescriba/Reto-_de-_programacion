@@ -13,7 +13,7 @@ Control de Versiones: Git / GitHub.
 
 ## El Reto
 1. **Base de Datos (SQL Server)**
-Se te proporciona el script de creación de la tabla Productos en (SqlQuery_1.sql)[./SqlQuery_1.sql]. Debes evolucionarlo creando un Stored Procedure llamado sp_GestionarInventario que:
+Se te proporciona el script de creación de la tabla Productos en [SqlQuery_1.sql](./SqlQuery_1.sql). Debes evolucionarlo creando un Stored Procedure llamado sp_GestionarInventario que:
 
     - Centralice la lógica: Si el producto ya existe (por nombre), debe actualizar su precio y sumar el nuevo stock al actual. Si no existe, debe crearlo.
 
@@ -24,7 +24,7 @@ Se te proporciona el script de creación de la tabla Productos en (SqlQuery_1.sq
     - Feedback: Debe retornar un mensaje de confirmación o error al usuario.
 
 2. **Aplicación (VB.NET)**
-Debes refactorizar el código base en (Form1.vb)[./WindowsApp1/Form1.vb] cumpliendo estos puntos:
+Debes refactorizar el código base en [Form1.vb](./WindowsApp1/Form1.vb) cumpliendo estos puntos:
 
     - Arquitectura: Separar el acceso a datos de la interfaz (nada de SQL directamente en el botón).
 
