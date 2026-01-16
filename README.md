@@ -1,4 +1,4 @@
-# Reto Técnico Junior: Refactorización y Lógica en DB (.NET & SQL Server)
+# Reto Técnico: Refactorización y Lógica en DB (.NET & SQL Server)
 ## Escenario
 Contamos con un módulo básico de inventario que no cumple con los estándares de seguridad, arquitectura y escalabilidad de la empresa. Tu misión es tomar este código inicial y transformarlo en una solución profesional.
 
