@@ -13,34 +13,34 @@ Control de Versiones: Git / GitHub.
 
 ## El Reto
 1. **Base de Datos (SQL Server)**
-+ Se te proporciona el script de creación de la tabla Productos. Debes evolucionarlo creando un Stored Procedure llamado sp_GestionarInventario que:
+Se te proporciona el script de creación de la tabla Productos. Debes evolucionarlo creando un Stored Procedure llamado sp_GestionarInventario que:
 
-+ Centralice la lógica: Si el producto ya existe (por nombre), debe actualizar su precio y sumar el nuevo stock al actual. Si no existe, debe crearlo.
+    - Centralice la lógica: Si el producto ya existe (por nombre), debe actualizar su precio y sumar el nuevo stock al actual. Si no existe, debe crearlo.
 
-+ Validaciones: Asegurar que el nombre no sea nulo, el precio sea mayor a 0 y el stock no sea negativo.
+    - Validaciones: Asegurar que el nombre no sea nulo, el precio sea mayor a 0 y el stock no sea negativo.
 
-+ Transaccionalidad: El SP debe garantizar la integridad de los datos mediante el uso de TRANSACTION.
+    - Transaccionalidad: El SP debe garantizar la integridad de los datos mediante el uso de TRANSACTION.
 
-+ Feedback: Debe retornar un mensaje de confirmación o error al usuario.
+    - Feedback: Debe retornar un mensaje de confirmación o error al usuario.
 
 2. **Aplicación (VB.NET)**
 Debes refactorizar el código base cumpliendo estos puntos:
 
-+ Arquitectura: Separar el acceso a datos de la interfaz (nada de SQL directamente en el botón).
+    - Arquitectura: Separar el acceso a datos de la interfaz (nada de SQL directamente en el botón).
 
-+ Seguridad: Eliminar la vulnerabilidad de SQL Injection mediante el uso de parámetros.
+    - Seguridad: Eliminar la vulnerabilidad de SQL Injection mediante el uso de parámetros.
 
-+ Manejo de Recursos: Asegurar el cierre de conexiones mediante bloques Using.
+    - Manejo de Recursos: Asegurar el cierre de conexiones mediante bloques Using.
 
-+ Experiencia de Usuario: * Añadir un DataGridView que se refresque automáticamente al guardar.
+    - Experiencia de Usuario: * Añadir un DataGridView que se refresque automáticamente al guardar.
 
-+ Plus de lógica visual: Si un producto tiene un stock menor a 5, la fila en el grid debe resaltarse en color rojo.
+    - Plus de lógica visual: Si un producto tiene un stock menor a 5, la fila en el grid debe resaltarse en color rojo.
 
 3. **Generealidades**
 
-+ Buenas prácticas: Asegúrate de que el código sea limpio, bien comentado y siga las convenciones de nomenclatura.
-+ Documentación: Proporciona un README.md con instrucciones claras para ejecutar el proyecto y cualquier consideración especial.
-+ Convención de commits: Usa mensajes de commit claros y descriptivos en tu repositorio Git/GitHub.
+    - Buenas prácticas: Asegúrate de que el código sea limpio, bien comentado y siga las convenciones de nomenclatura.
+    - Documentación: Proporciona un README.md con instrucciones claras para ejecutar el proyecto y cualquier consideración especial.
+    - Convención de commits: Usa mensajes de commit claros y descriptivos en tu repositorio Git/GitHub.
 
 ## Instrucciones de Entrega
 1. Haz un Fork de este repositorio.
